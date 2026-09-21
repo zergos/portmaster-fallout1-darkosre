@@ -1,8 +1,8 @@
 # portmaster-fallout1-darkosre
 Fallout 1 binary release for Portmaster (dArkOSRE)
 
-Original build published on Portmaster: https://portmaster.games/detail.html?name=fallout1
-Source code: https://github.com/alexbatalov/fallout1-ce
+* Original build published on Portmaster: https://portmaster.games/detail.html?name=fallout1
+* Source code: https://github.com/alexbatalov/fallout1-ce
 
 ## Build sequence
 
