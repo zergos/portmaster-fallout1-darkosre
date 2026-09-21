@@ -68,11 +68,7 @@ export TEXTINPUTINTERACTIVE="Y"
 export TEXTINPUTNOAUTOCAPITALS="Y"
 
 $GPTOKEYB "fallout-ce" -c "./fallout1.gptk.$ANALOG_STICKS" textinput &
-if [[ $whichos == *"ArkOS"* ]]; then
-    LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libSDL2-2.0.so.0.3200.10 ./fallout-ce 2>&1 | tee -a ./log.txt
-else
-    ./fallout-ce 2>&1 | tee -a ./log.txt
-fi
+./fallout-ce 2>&1 | tee -a ./log.txt
 
 $ESUDO kill -9 $(pidof gptokeyb)
 unset SDL_GAMECONTROLLERCONFIG
